@@ -100,7 +100,9 @@ commit record. Its Cargo runner has been removed.
 
 The original pre-bootloader flash was backed up to the ignored
 `firmware/artifacts/update/original-pre-bootloader.bin` before installation.
-A new board or a deliberate bootloader replacement uses J-Link once:
+A new board or a deliberate bootloader replacement needs an SWD probe
+(ST-Link V2 clone or J-Link) once. See [docs/PROGRAMMER.md](../docs/PROGRAMMER.md)
+for wiring and setup:
 
 ```sh
 host/target/release/keeb build

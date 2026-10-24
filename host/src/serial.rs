@@ -127,7 +127,7 @@ pub fn request_bootloader(port: &Port, cancel: &Cancel) -> Result<()> {
             if let Kind::Hello { update, .. } = event.kind {
                 ensure!(
                     update == Some(1),
-                    "firmware lacks USB update support; install factory.bin with J-Link once"
+                    "firmware lacks USB update support; install factory.bin over SWD once (see docs/PROGRAMMER.md)"
                 );
                 connection.command("bootloader")?;
                 let deadline = Instant::now() + Duration::from_secs(5);

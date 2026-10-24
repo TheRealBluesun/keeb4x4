@@ -19,9 +19,12 @@ need a debug probe after the first flash.
 | [`bootloader/`](bootloader/README.md) | USB DFU bootloader, recovery, memory layout |
 | [`host/`](host/README.md) | `keeb` CLI: list devices, listen to events, build and flash firmware |
 | [`enclosure/`](enclosure/README.md) | 3D-printable base (STL/STEP) and its parametric source |
+| [`docs/PROGRAMMER.md`](docs/PROGRAMMER.md) | One-time bootloader flashing with an ST-Link clone |
 | `tools/pcb/` | KiCad Python scripts used while routing the LED chain and GND stitching |
 
 ## Quick start (you have a board)
+
+> New board? Flash the bootloader first: [docs/PROGRAMMER.md](docs/PROGRAMMER.md).
 
 Requires [rustup](https://rustup.rs). Toolchains and targets are pinned per
 project and install automatically.
@@ -44,8 +47,10 @@ On Linux, install the udev rules first (see
 ever stops responding, hold the encoder button while plugging in USB to enter
 recovery, then run `keeb update --recovery ...`.
 
-A blank MCU needs a one-time bootloader install over SWD (J3) with `probe-rs`;
-see [bootloader/README.md](bootloader/README.md).
+**A newly assembled board is blank.** It needs a one-time bootloader install
+over the SWD header (J3) with a cheap ST-Link V2 clone and `probe-rs`. Start
+with **[docs/PROGRAMMER.md](docs/PROGRAMMER.md)**, which covers what to buy,
+wiring and troubleshooting.
 
 ## Assembly notes
 
