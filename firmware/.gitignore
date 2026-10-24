@@ -1,0 +1,4 @@
+/target/
+/artifacts/
+/tools/dfu-util-local/
+/tools/gdb-local/

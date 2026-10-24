@@ -1,0 +1,17 @@
+# Build output
+target/
+__pycache__/
+.venv/
+
+# Generated firmware images (rebuild with `keeb build`)
+firmware/artifacts/
+firmware/tools/dfu-util-local/
+firmware/tools/gdb-local/
+
+# KiCad per-user / backup state
+*.kicad_prl
+.history/
+*-backups/
+_autosave-*
+*.lck
+fp-info-cache

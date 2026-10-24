@@ -1,0 +1,31 @@
+[package]
+name = "keeb-v2"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cortex-m = { version = "0.7.7", features = ["critical-section-single-core"] }
+cortex-m-rt = "0.7.5"
+defmt = "1.0"
+defmt-rtt = { version = "1.0", features = ["disable-blocking-mode"] }
+panic-probe = { version = "1.0", features = ["print-defmt"] }
+embassy-executor = { version = "0.10.0", features = ["platform-cortex-m", "executor-thread", "defmt"] }
+embassy-stm32 = { version = "0.6.0", features = ["stm32g431cb", "time-driver-tim4", "defmt"] }
+embassy-time = { version = "0.5.1", features = ["defmt"] }
+embassy-usb = { version = "0.6.0", default-features = false, features = ["defmt"] }
+embassy-futures = "0.1.2"
+embassy-sync = "0.8.0"
+heapless = "0.9.3"
+serde = { version = "1", default-features = false, features = ["derive"] }
+serde-json-core = "0.6"
+
+[profile.dev]
+opt-level = "s"
+debug = 2
+
+[profile.release]
+# Animation is CPU-bound at 16 MHz; optimize throughput rather than code size.
+opt-level = 3
+debug = 2
+lto = true
+codegen-units = 1

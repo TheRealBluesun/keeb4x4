@@ -1,0 +1,130 @@
+{
+  "cad_valid": true,
+  "one_solid": true,
+  "pcb_overlap_mm3": 0.0,
+  "post_keepout_clearance": [
+    {
+      "mount": "H1",
+      "used": true,
+      "nearest_unrelieved_component": "J2",
+      "unrelieved_gap_mm": 11.75,
+      "relief": {}
+    },
+    {
+      "mount": "H2",
+      "used": true,
+      "nearest_unrelieved_component": "SW17",
+      "unrelieved_gap_mm": 8.243,
+      "relief": {}
+    },
+    {
+      "mount": "H3",
+      "used": true,
+      "nearest_unrelieved_component": "R10",
+      "unrelieved_gap_mm": 1.208,
+      "relief": {
+        "component": "R11",
+        "component_allowance_mm": 1.5,
+        "clearance_mm": 0.5,
+        "notch_depth_mm": 2.0,
+        "bearing_area_retained_percent": 81.74,
+        "lower_post_full_annulus": true
+      }
+    },
+    {
+      "mount": "H4",
+      "used": true,
+      "nearest_unrelieved_component": "R12",
+      "unrelieved_gap_mm": 1.208,
+      "relief": {}
+    },
+    {
+      "mount": "H5",
+      "used": true,
+      "nearest_unrelieved_component": "D10",
+      "unrelieved_gap_mm": 3.058,
+      "relief": {}
+    },
+    {
+      "mount": "H6",
+      "used": true,
+      "nearest_unrelieved_component": "D12",
+      "unrelieved_gap_mm": 3.058,
+      "relief": {}
+    },
+    {
+      "mount": "H7",
+      "used": true,
+      "nearest_unrelieved_component": "D13",
+      "unrelieved_gap_mm": 2.192,
+      "relief": {}
+    },
+    {
+      "mount": "H8",
+      "used": true,
+      "nearest_unrelieved_component": "C24",
+      "unrelieved_gap_mm": 4.446,
+      "relief": {}
+    }
+  ],
+  "limitations": [
+    "No physical fit test yet",
+    "Bottom component heights and solder tails must fit within 6 mm",
+    "R11 including solder must project no more than 1.5 mm for 0.5 mm notch clearance",
+    "Preview keycaps, switch heights and control bodies are illustrative"
+  ],
+  "keeb4x4_base": {
+    "watertight": true,
+    "one_mesh": true,
+    "bounds_mm": [
+      [
+        -2.75,
+        -2.75,
+        -2.7755575615628914e-16
+      ],
+      [
+        102.75,
+        145.25,
+        10.399999618530273
+      ]
+    ],
+    "volume_mm3": 47720.54,
+    "triangles": 22744
+  },
+  "corner_fit_sample": {
+    "watertight": true,
+    "one_mesh": true,
+    "bounds_mm": [
+      [
+        -2.75,
+        -2.75,
+        -1.6653345369377348e-16
+      ],
+      [
+        20.25,
+        20.25,
+        10.399999618530273
+      ]
+    ],
+    "volume_mm3": 2188.29,
+    "triangles": 3124
+  },
+  "h3_fit_sample": {
+    "watertight": true,
+    "one_mesh": true,
+    "bounds_mm": [
+      [
+        19.0,
+        75.0,
+        0.0
+      ],
+      [
+        35.0,
+        91.0,
+        8.399999618530273
+      ]
+    ],
+    "volume_mm3": 748.37,
+    "triangles": 2444
+  }
+}

@@ -1,0 +1,4 @@
+# Local development access: SEGGER J-Link and STM32 USB DFU.
+# Install into /etc/udev/rules.d/, reload rules, then trigger USB devices.
+SUBSYSTEM=="usb", ATTR{idVendor}=="1366", ATTR{idProduct}=="0105", GROUP="plugdev", MODE="0660", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTR{idVendor}=="0483", ATTR{idProduct}=="df11", GROUP="plugdev", MODE="0660", TAG+="uaccess"

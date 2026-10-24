@@ -1,0 +1,2 @@
+# Limit debug access to the J-Link and the local plugdev group.
+SUBSYSTEM=="usb", ATTR{idVendor}=="1366", ATTR{idProduct}=="0105", ATTR{serial}=="000600109060", MODE="0660", GROUP="plugdev", TAG+="uaccess"

@@ -1,0 +1,3186 @@
+{
+  "pcb_source": "../keeb4x4.kicad_pcb",
+  "pcb_sha256": "6bb4b8a2fe5ea9f4244e60bae861651c03d3615b76c482b6edadd8434ec9b88c",
+  "width": 100,
+  "depth": 142.5,
+  "thickness": 1.6,
+  "corner_radius": 3.0,
+  "mounts": [
+    {
+      "ref": "H1",
+      "position": [
+        5,
+        134.5
+      ],
+      "drill": 3.2,
+      "used": true
+    },
+    {
+      "ref": "H2",
+      "position": [
+        95,
+        134.5
+      ],
+      "drill": 3.2,
+      "used": true
+    },
+    {
+      "ref": "H3",
+      "position": [
+        27,
+        83.0
+      ],
+      "drill": 3.2,
+      "used": true
+    },
+    {
+      "ref": "H4",
+      "position": [
+        73,
+        83.0
+      ],
+      "drill": 3.2,
+      "used": true
+    },
+    {
+      "ref": "H5",
+      "position": [
+        27,
+        30.0
+      ],
+      "drill": 3.2,
+      "used": true
+    },
+    {
+      "ref": "H6",
+      "position": [
+        73,
+        30.0
+      ],
+      "drill": 3.2,
+      "used": true
+    },
+    {
+      "ref": "H7",
+      "position": [
+        5.5,
+        3.5
+      ],
+      "drill": 3.2,
+      "used": true
+    },
+    {
+      "ref": "H8",
+      "position": [
+        94.5,
+        3.5
+      ],
+      "drill": 3.2,
+      "used": true
+    }
+  ],
+  "switches": [
+    {
+      "ref": "SW1",
+      "position": [
+        15.5,
+        96.25
+      ],
+      "display": true
+    },
+    {
+      "ref": "SW2",
+      "position": [
+        38.5,
+        96.25
+      ],
+      "display": true
+    },
+    {
+      "ref": "SW3",
+      "position": [
+        61.5,
+        96.25
+      ],
+      "display": true
+    },
+    {
+      "ref": "SW4",
+      "position": [
+        84.5,
+        96.25
+      ],
+      "display": true
+    },
+    {
+      "ref": "SW5",
+      "position": [
+        15.5,
+        69.75
+      ],
+      "display": false
+    },
+    {
+      "ref": "SW6",
+      "position": [
+        38.5,
+        69.75
+      ],
+      "display": false
+    },
+    {
+      "ref": "SW7",
+      "position": [
+        61.5,
+        69.75
+      ],
+      "display": false
+    },
+    {
+      "ref": "SW8",
+      "position": [
+        84.5,
+        69.75
+      ],
+      "display": false
+    },
+    {
+      "ref": "SW9",
+      "position": [
+        15.5,
+        43.25
+      ],
+      "display": false
+    },
+    {
+      "ref": "SW10",
+      "position": [
+        38.5,
+        43.25
+      ],
+      "display": false
+    },
+    {
+      "ref": "SW11",
+      "position": [
+        61.5,
+        43.25
+      ],
+      "display": false
+    },
+    {
+      "ref": "SW12",
+      "position": [
+        84.5,
+        43.25
+      ],
+      "display": false
+    },
+    {
+      "ref": "SW13",
+      "position": [
+        15.5,
+        16.75
+      ],
+      "display": false
+    },
+    {
+      "ref": "SW14",
+      "position": [
+        38.5,
+        16.75
+      ],
+      "display": false
+    },
+    {
+      "ref": "SW15",
+      "position": [
+        61.5,
+        16.75
+      ],
+      "display": false
+    },
+    {
+      "ref": "SW16",
+      "position": [
+        84.5,
+        16.75
+      ],
+      "display": false
+    }
+  ],
+  "footprints": {
+    "SW3": {
+      "position": [
+        64.04,
+        101.33
+      ],
+      "value": "SW_Push",
+      "footprint": "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB",
+      "side": "F.Cu"
+    },
+    "SW12": {
+      "position": [
+        87.04,
+        48.33
+      ],
+      "value": "SW_Push",
+      "footprint": "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB",
+      "side": "F.Cu"
+    },
+    "SW13": {
+      "position": [
+        18.04,
+        21.83
+      ],
+      "value": "SW_Push",
+      "footprint": "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB",
+      "side": "F.Cu"
+    },
+    "SW15": {
+      "position": [
+        64.04,
+        21.83
+      ],
+      "value": "SW_Push",
+      "footprint": "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB",
+      "side": "F.Cu"
+    },
+    "SW7": {
+      "position": [
+        64.04,
+        74.83
+      ],
+      "value": "SW_Push",
+      "footprint": "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB",
+      "side": "F.Cu"
+    },
+    "J2": {
+      "position": [
+        19.4,
+        128.5
+      ],
+      "value": "OLED_SSD1306",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+      "side": "F.Cu"
+    },
+    "SW18": {
+      "position": [
+        47,
+        113.5
+      ],
+      "value": "BOOT",
+      "footprint": "Button_Switch_SMD:SW_SPST_B3U-1000P",
+      "side": "F.Cu"
+    },
+    "SW6": {
+      "position": [
+        41.04,
+        74.83
+      ],
+      "value": "SW_Push",
+      "footprint": "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB",
+      "side": "F.Cu"
+    },
+    "J3": {
+      "position": [
+        15.4,
+        122.0
+      ],
+      "value": "SWD",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical",
+      "side": "F.Cu"
+    },
+    "H3": {
+      "position": [
+        27,
+        83.0
+      ],
+      "value": "",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "side": "F.Cu"
+    },
+    "H4": {
+      "position": [
+        73,
+        83.0
+      ],
+      "value": "",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "side": "F.Cu"
+    },
+    "SW16": {
+      "position": [
+        87.04,
+        21.83
+      ],
+      "value": "SW_Push",
+      "footprint": "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB",
+      "side": "F.Cu"
+    },
+    "SW2": {
+      "position": [
+        41.04,
+        101.33
+      ],
+      "value": "SW_Push",
+      "footprint": "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB",
+      "side": "F.Cu"
+    },
+    "J8": {
+      "position": [
+        15.5,
+        86.35
+      ],
+      "value": "ScreenKey5",
+      "footprint": "Connector_FFC-FPC:Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal",
+      "side": "F.Cu"
+    },
+    "SW1": {
+      "position": [
+        18.04,
+        101.33
+      ],
+      "value": "SW_Push",
+      "footprint": "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB",
+      "side": "F.Cu"
+    },
+    "SW11": {
+      "position": [
+        64.04,
+        48.33
+      ],
+      "value": "SW_Push",
+      "footprint": "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB",
+      "side": "F.Cu"
+    },
+    "H5": {
+      "position": [
+        27,
+        30.0
+      ],
+      "value": "",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "side": "F.Cu"
+    },
+    "SW14": {
+      "position": [
+        41.04,
+        21.83
+      ],
+      "value": "SW_Push",
+      "footprint": "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB",
+      "side": "F.Cu"
+    },
+    "H1": {
+      "position": [
+        5,
+        134.5
+      ],
+      "value": "",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "side": "F.Cu"
+    },
+    "J11": {
+      "position": [
+        84.5,
+        86.35
+      ],
+      "value": "ScreenKey8",
+      "footprint": "Connector_FFC-FPC:Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal",
+      "side": "F.Cu"
+    },
+    "J12": {
+      "position": [
+        15.5,
+        59.85
+      ],
+      "value": "ScreenKey9",
+      "footprint": "Connector_FFC-FPC:Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal",
+      "side": "F.Cu"
+    },
+    "SW9": {
+      "position": [
+        18.04,
+        48.33
+      ],
+      "value": "SW_Push",
+      "footprint": "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB",
+      "side": "F.Cu"
+    },
+    "H7": {
+      "position": [
+        5.5,
+        3.5
+      ],
+      "value": "",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "side": "F.Cu"
+    },
+    "SW19": {
+      "position": [
+        52.5,
+        113.5
+      ],
+      "value": "RESET",
+      "footprint": "Button_Switch_SMD:SW_SPST_B3U-1000P",
+      "side": "F.Cu"
+    },
+    "H6": {
+      "position": [
+        73,
+        30.0
+      ],
+      "value": "",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "side": "F.Cu"
+    },
+    "J7": {
+      "position": [
+        84.5,
+        112.85
+      ],
+      "value": "ScreenKey4",
+      "footprint": "Connector_FFC-FPC:Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal",
+      "side": "F.Cu"
+    },
+    "SW5": {
+      "position": [
+        18.04,
+        74.83
+      ],
+      "value": "SW_Push",
+      "footprint": "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB",
+      "side": "F.Cu"
+    },
+    "SW17": {
+      "position": [
+        72.2,
+        125.5
+      ],
+      "value": "EC11",
+      "footprint": "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm",
+      "side": "F.Cu"
+    },
+    "J14": {
+      "position": [
+        61.5,
+        59.85
+      ],
+      "value": "ScreenKey11",
+      "footprint": "Connector_FFC-FPC:Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal",
+      "side": "F.Cu"
+    },
+    "J1": {
+      "position": [
+        50,
+        139.1
+      ],
+      "value": "USB_C_16P",
+      "footprint": "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12",
+      "side": "F.Cu"
+    },
+    "J9": {
+      "position": [
+        38.5,
+        86.35
+      ],
+      "value": "ScreenKey6",
+      "footprint": "Connector_FFC-FPC:Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal",
+      "side": "F.Cu"
+    },
+    "SW8": {
+      "position": [
+        87.04,
+        74.83
+      ],
+      "value": "SW_Push",
+      "footprint": "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB",
+      "side": "F.Cu"
+    },
+    "J10": {
+      "position": [
+        61.5,
+        86.35
+      ],
+      "value": "ScreenKey7",
+      "footprint": "Connector_FFC-FPC:Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal",
+      "side": "F.Cu"
+    },
+    "J5": {
+      "position": [
+        38.5,
+        112.85
+      ],
+      "value": "ScreenKey2",
+      "footprint": "Connector_FFC-FPC:Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal",
+      "side": "F.Cu"
+    },
+    "SW10": {
+      "position": [
+        41.04,
+        48.33
+      ],
+      "value": "SW_Push",
+      "footprint": "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB",
+      "side": "F.Cu"
+    },
+    "J15": {
+      "position": [
+        84.5,
+        59.85
+      ],
+      "value": "ScreenKey12",
+      "footprint": "Connector_FFC-FPC:Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal",
+      "side": "F.Cu"
+    },
+    "SW4": {
+      "position": [
+        87.04,
+        101.33
+      ],
+      "value": "SW_Push",
+      "footprint": "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB",
+      "side": "F.Cu"
+    },
+    "H8": {
+      "position": [
+        94.5,
+        3.5
+      ],
+      "value": "",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "side": "F.Cu"
+    },
+    "H2": {
+      "position": [
+        95,
+        134.5
+      ],
+      "value": "",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "side": "F.Cu"
+    },
+    "J6": {
+      "position": [
+        61.5,
+        112.85
+      ],
+      "value": "ScreenKey3",
+      "footprint": "Connector_FFC-FPC:Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal",
+      "side": "F.Cu"
+    },
+    "J13": {
+      "position": [
+        38.5,
+        59.85
+      ],
+      "value": "ScreenKey10",
+      "footprint": "Connector_FFC-FPC:Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal",
+      "side": "F.Cu"
+    },
+    "J4": {
+      "position": [
+        15.5,
+        112.85
+      ],
+      "value": "ScreenKey1",
+      "footprint": "Connector_FFC-FPC:Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal",
+      "side": "F.Cu"
+    },
+    "LED15": {
+      "position": [
+        61.5,
+        11.67
+      ],
+      "value": "SK6812MINI-E",
+      "footprint": "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount",
+      "side": "B.Cu"
+    },
+    "C5": {
+      "position": [
+        60.8,
+        121.5
+      ],
+      "value": "1uF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "U6": {
+      "position": [
+        31,
+        134.5
+      ],
+      "value": "W25Q128JVSIQ",
+      "footprint": "SOIC-8_5.3x5.3mm_P1.27mm",
+      "side": "B.Cu"
+    },
+    "LED3": {
+      "position": [
+        61.5,
+        91.17
+      ],
+      "value": "SK6812MINI-E",
+      "footprint": "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount",
+      "side": "B.Cu"
+    },
+    "R12": {
+      "position": [
+        68.5,
+        86.35
+      ],
+      "value": "100",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "R17": {
+      "position": [
+        91.5,
+        59.85
+      ],
+      "value": "100",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "C26": {
+      "position": [
+        58.2,
+        127.5
+      ],
+      "value": "1uF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "D7": {
+      "position": [
+        55.15,
+        63.4
+      ],
+      "value": "1N4148W",
+      "footprint": "Diode_SMD:D_SOD-123",
+      "side": "B.Cu"
+    },
+    "C21": {
+      "position": [
+        21.5,
+        11.67
+      ],
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "C16": {
+      "position": [
+        90.5,
+        64.67
+      ],
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "C17": {
+      "position": [
+        21.5,
+        38.17
+      ],
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "C6": {
+      "position": [
+        57.4,
+        123.5
+      ],
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "R15": {
+      "position": [
+        45.5,
+        59.85
+      ],
+      "value": "100",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "C12": {
+      "position": [
+        90.5,
+        91.17
+      ],
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "R14": {
+      "position": [
+        22.5,
+        59.85
+      ],
+      "value": "100",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "C3": {
+      "position": [
+        42.4,
+        120.5
+      ],
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "U2": {
+      "position": [
+        39.4,
+        129.5
+      ],
+      "value": "USBLC6-2SC6",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "side": "B.Cu"
+    },
+    "D1": {
+      "position": [
+        9.15,
+        89.9
+      ],
+      "value": "1N4148W",
+      "footprint": "Diode_SMD:D_SOD-123",
+      "side": "B.Cu"
+    },
+    "C15": {
+      "position": [
+        67.5,
+        64.67
+      ],
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "C18": {
+      "position": [
+        44.5,
+        38.17
+      ],
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "LED16": {
+      "position": [
+        84.5,
+        11.67
+      ],
+      "value": "SK6812MINI-E",
+      "footprint": "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount",
+      "side": "B.Cu"
+    },
+    "LED7": {
+      "position": [
+        61.5,
+        64.67
+      ],
+      "value": "SK6812MINI-E",
+      "footprint": "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount",
+      "side": "B.Cu"
+    },
+    "R7": {
+      "position": [
+        44,
+        109.5
+      ],
+      "value": "100",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "LED6": {
+      "position": [
+        38.5,
+        64.67
+      ],
+      "value": "SK6812MINI-E",
+      "footprint": "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount",
+      "side": "B.Cu"
+    },
+    "C25": {
+      "position": [
+        68.4,
+        127.5
+      ],
+      "value": "1uF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "C10": {
+      "position": [
+        44.5,
+        91.17
+      ],
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "LED13": {
+      "position": [
+        15.5,
+        11.67
+      ],
+      "value": "SK6812MINI-E",
+      "footprint": "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount",
+      "side": "B.Cu"
+    },
+    "R1": {
+      "position": [
+        44.4,
+        129.5
+      ],
+      "value": "5.1k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "R11": {
+      "position": [
+        30,
+        85.0
+      ],
+      "value": "100",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "D16": {
+      "position": [
+        78.15,
+        10.4
+      ],
+      "value": "1N4148W",
+      "footprint": "Diode_SMD:D_SOD-123",
+      "side": "B.Cu"
+    },
+    "R16": {
+      "position": [
+        68.5,
+        59.85
+      ],
+      "value": "100",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "D2": {
+      "position": [
+        32.15,
+        89.9
+      ],
+      "value": "1N4148W",
+      "footprint": "Diode_SMD:D_SOD-123",
+      "side": "B.Cu"
+    },
+    "R5": {
+      "position": [
+        30.9,
+        125.5
+      ],
+      "value": "4.7k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "D8": {
+      "position": [
+        78.15,
+        63.4
+      ],
+      "value": "1N4148W",
+      "footprint": "Diode_SMD:D_SOD-123",
+      "side": "B.Cu"
+    },
+    "R6": {
+      "position": [
+        22.5,
+        112.85
+      ],
+      "value": "100",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "C28": {
+      "position": [
+        52.5,
+        83.0
+      ],
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "C23": {
+      "position": [
+        67.5,
+        11.67
+      ],
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "C22": {
+      "position": [
+        44.5,
+        11.67
+      ],
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "LED8": {
+      "position": [
+        84.5,
+        64.67
+      ],
+      "value": "SK6812MINI-E",
+      "footprint": "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount",
+      "side": "B.Cu"
+    },
+    "C8": {
+      "position": [
+        57.4,
+        117.5
+      ],
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "D6": {
+      "position": [
+        32.15,
+        63.4
+      ],
+      "value": "1N4148W",
+      "footprint": "Diode_SMD:D_SOD-123",
+      "side": "B.Cu"
+    },
+    "LED10": {
+      "position": [
+        38.5,
+        38.17
+      ],
+      "value": "SK6812MINI-E",
+      "footprint": "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount",
+      "side": "B.Cu"
+    },
+    "R8": {
+      "position": [
+        68.5,
+        112.85
+      ],
+      "value": "100",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "D4": {
+      "position": [
+        78.15,
+        89.9
+      ],
+      "value": "1N4148W",
+      "footprint": "Diode_SMD:D_SOD-123",
+      "side": "B.Cu"
+    },
+    "C11": {
+      "position": [
+        67.5,
+        91.17
+      ],
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "LED9": {
+      "position": [
+        15.5,
+        38.17
+      ],
+      "value": "SK6812MINI-E",
+      "footprint": "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount",
+      "side": "B.Cu"
+    },
+    "D11": {
+      "position": [
+        55.15,
+        36.9
+      ],
+      "value": "1N4148W",
+      "footprint": "Diode_SMD:D_SOD-123",
+      "side": "B.Cu"
+    },
+    "C1": {
+      "position": [
+        42.4,
+        126.5
+      ],
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "LED5": {
+      "position": [
+        15.5,
+        64.67
+      ],
+      "value": "SK6812MINI-E",
+      "footprint": "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount",
+      "side": "B.Cu"
+    },
+    "D5": {
+      "position": [
+        9.15,
+        63.4
+      ],
+      "value": "1N4148W",
+      "footprint": "Diode_SMD:D_SOD-123",
+      "side": "B.Cu"
+    },
+    "C29": {
+      "position": [
+        32,
+        130.53
+      ],
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "U5": {
+      "position": [
+        43,
+        83.0
+      ],
+      "value": "74HC154",
+      "footprint": "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm",
+      "side": "B.Cu"
+    },
+    "C2": {
+      "position": [
+        42.4,
+        123.5
+      ],
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "Q1": {
+      "position": [
+        42,
+        133.5
+      ],
+      "value": "AO3400A",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "side": "B.Cu"
+    },
+    "D9": {
+      "position": [
+        9.15,
+        36.9
+      ],
+      "value": "1N4148W",
+      "footprint": "Diode_SMD:D_SOD-123",
+      "side": "B.Cu"
+    },
+    "R3": {
+      "position": [
+        37.4,
+        121.5
+      ],
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "LED2": {
+      "position": [
+        38.5,
+        91.17
+      ],
+      "value": "SK6812MINI-E",
+      "footprint": "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount",
+      "side": "B.Cu"
+    },
+    "LED1": {
+      "position": [
+        15.5,
+        91.17
+      ],
+      "value": "SK6812MINI-E",
+      "footprint": "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount",
+      "side": "B.Cu"
+    },
+    "C24": {
+      "position": [
+        90.5,
+        11.67
+      ],
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "D12": {
+      "position": [
+        78.15,
+        36.9
+      ],
+      "value": "1N4148W",
+      "footprint": "Diode_SMD:D_SOD-123",
+      "side": "B.Cu"
+    },
+    "C4": {
+      "position": [
+        42.4,
+        117.5
+      ],
+      "value": "4.7uF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "C20": {
+      "position": [
+        90.5,
+        38.17
+      ],
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "LED14": {
+      "position": [
+        38.5,
+        11.67
+      ],
+      "value": "SK6812MINI-E",
+      "footprint": "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount",
+      "side": "B.Cu"
+    },
+    "R2": {
+      "position": [
+        55.4,
+        129.5
+      ],
+      "value": "5.1k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "C27": {
+      "position": [
+        64.4,
+        124.5
+      ],
+      "value": "10uF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "side": "B.Cu"
+    },
+    "D14": {
+      "position": [
+        32.15,
+        10.4
+      ],
+      "value": "1N4148W",
+      "footprint": "Diode_SMD:D_SOD-123",
+      "side": "B.Cu"
+    },
+    "U3": {
+      "position": [
+        63.4,
+        129.5
+      ],
+      "value": "AP2112K-3.3",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "side": "B.Cu"
+    },
+    "LED12": {
+      "position": [
+        84.5,
+        38.17
+      ],
+      "value": "SK6812MINI-E",
+      "footprint": "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount",
+      "side": "B.Cu"
+    },
+    "C14": {
+      "position": [
+        44.5,
+        64.67
+      ],
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "R10": {
+      "position": [
+        22.5,
+        86.35
+      ],
+      "value": "100",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "R13": {
+      "position": [
+        91.5,
+        86.35
+      ],
+      "value": "100",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "LED4": {
+      "position": [
+        84.5,
+        91.17
+      ],
+      "value": "SK6812MINI-E",
+      "footprint": "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount",
+      "side": "B.Cu"
+    },
+    "C13": {
+      "position": [
+        21.5,
+        64.67
+      ],
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "U1": {
+      "position": [
+        50,
+        121.5
+      ],
+      "value": "STM32G431CBT6",
+      "footprint": "Package_QFP:LQFP-48_7x7mm_P0.5mm",
+      "side": "B.Cu"
+    },
+    "D15": {
+      "position": [
+        55.15,
+        10.4
+      ],
+      "value": "1N4148W",
+      "footprint": "Diode_SMD:D_SOD-123",
+      "side": "B.Cu"
+    },
+    "D10": {
+      "position": [
+        32.15,
+        36.9
+      ],
+      "value": "1N4148W",
+      "footprint": "Diode_SMD:D_SOD-123",
+      "side": "B.Cu"
+    },
+    "R9": {
+      "position": [
+        91.5,
+        112.85
+      ],
+      "value": "100",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "C9": {
+      "position": [
+        21.5,
+        91.17
+      ],
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "LED11": {
+      "position": [
+        61.5,
+        38.17
+      ],
+      "value": "SK6812MINI-E",
+      "footprint": "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount",
+      "side": "B.Cu"
+    },
+    "R4": {
+      "position": [
+        27.4,
+        125.5
+      ],
+      "value": "4.7k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "C19": {
+      "position": [
+        67.5,
+        38.17
+      ],
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "side": "B.Cu"
+    },
+    "U4": {
+      "position": [
+        24.4,
+        118.5
+      ],
+      "value": "74AHCT1G125",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "side": "B.Cu"
+    },
+    "D3": {
+      "position": [
+        55.15,
+        89.9
+      ],
+      "value": "1N4148W",
+      "footprint": "Diode_SMD:D_SOD-123",
+      "side": "B.Cu"
+    },
+    "D13": {
+      "position": [
+        9.15,
+        10.4
+      ],
+      "value": "1N4148W",
+      "footprint": "Diode_SMD:D_SOD-123",
+      "side": "B.Cu"
+    },
+    "C7": {
+      "position": [
+        57.4,
+        120.5
+      ],
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "side": "B.Cu"
+    }
+  },
+  "bottom_keepouts": [
+    {
+      "ref": "SW3",
+      "kind": "lead_or_peg",
+      "position": [
+        56.42,
+        96.25
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "SW3",
+      "kind": "lead_or_peg",
+      "position": [
+        61.5,
+        96.25
+      ],
+      "radius": 2.0
+    },
+    {
+      "ref": "SW3",
+      "kind": "lead_or_peg",
+      "position": [
+        66.58,
+        96.25
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "SW3",
+      "kind": "lead_or_peg",
+      "position": [
+        64.04,
+        101.33
+      ],
+      "radius": 1.1
+    },
+    {
+      "ref": "SW3",
+      "kind": "lead_or_peg",
+      "position": [
+        57.69,
+        98.79
+      ],
+      "radius": 1.1
+    },
+    {
+      "ref": "SW12",
+      "kind": "lead_or_peg",
+      "position": [
+        79.42,
+        43.25
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "SW12",
+      "kind": "lead_or_peg",
+      "position": [
+        84.5,
+        43.25
+      ],
+      "radius": 2.0
+    },
+    {
+      "ref": "SW12",
+      "kind": "lead_or_peg",
+      "position": [
+        89.58,
+        43.25
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "SW12",
+      "kind": "lead_or_peg",
+      "position": [
+        87.04,
+        48.33
+      ],
+      "radius": 1.1
+    },
+    {
+      "ref": "SW12",
+      "kind": "lead_or_peg",
+      "position": [
+        80.69,
+        45.79
+      ],
+      "radius": 1.1
+    },
+    {
+      "ref": "SW13",
+      "kind": "lead_or_peg",
+      "position": [
+        10.42,
+        16.75
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "SW13",
+      "kind": "lead_or_peg",
+      "position": [
+        15.5,
+        16.75
+      ],
+      "radius": 2.0
+    },
+    {
+      "ref": "SW13",
+      "kind": "lead_or_peg",
+      "position": [
+        20.58,
+        16.75
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "SW13",
+      "kind": "lead_or_peg",
+      "position": [
+        18.04,
+        21.83
+      ],
+      "radius": 1.1
+    },
+    {
+      "ref": "SW13",
+      "kind": "lead_or_peg",
+      "position": [
+        11.69,
+        19.29
+      ],
+      "radius": 1.1
+    },
+    {
+      "ref": "SW15",
+      "kind": "lead_or_peg",
+      "position": [
+        56.42,
+        16.75
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "SW15",
+      "kind": "lead_or_peg",
+      "position": [
+        61.5,
+        16.75
+      ],
+      "radius": 2.0
+    },
+    {
+      "ref": "SW15",
+      "kind": "lead_or_peg",
+      "position": [
+        66.58,
+        16.75
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "SW15",
+      "kind": "lead_or_peg",
+      "position": [
+        64.04,
+        21.83
+      ],
+      "radius": 1.1
+    },
+    {
+      "ref": "SW15",
+      "kind": "lead_or_peg",
+      "position": [
+        57.69,
+        19.29
+      ],
+      "radius": 1.1
+    },
+    {
+      "ref": "SW7",
+      "kind": "lead_or_peg",
+      "position": [
+        56.42,
+        69.75
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "SW7",
+      "kind": "lead_or_peg",
+      "position": [
+        61.5,
+        69.75
+      ],
+      "radius": 2.0
+    },
+    {
+      "ref": "SW7",
+      "kind": "lead_or_peg",
+      "position": [
+        66.58,
+        69.75
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "SW7",
+      "kind": "lead_or_peg",
+      "position": [
+        64.04,
+        74.83
+      ],
+      "radius": 1.1
+    },
+    {
+      "ref": "SW7",
+      "kind": "lead_or_peg",
+      "position": [
+        57.69,
+        72.29
+      ],
+      "radius": 1.1
+    },
+    {
+      "ref": "J2",
+      "kind": "lead_or_peg",
+      "position": [
+        19.4,
+        128.5
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "J2",
+      "kind": "lead_or_peg",
+      "position": [
+        21.94,
+        128.5
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "J2",
+      "kind": "lead_or_peg",
+      "position": [
+        24.48,
+        128.5
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "J2",
+      "kind": "lead_or_peg",
+      "position": [
+        27.02,
+        128.5
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "SW6",
+      "kind": "lead_or_peg",
+      "position": [
+        33.42,
+        69.75
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "SW6",
+      "kind": "lead_or_peg",
+      "position": [
+        38.5,
+        69.75
+      ],
+      "radius": 2.0
+    },
+    {
+      "ref": "SW6",
+      "kind": "lead_or_peg",
+      "position": [
+        43.58,
+        69.75
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "SW6",
+      "kind": "lead_or_peg",
+      "position": [
+        41.04,
+        74.83
+      ],
+      "radius": 1.1
+    },
+    {
+      "ref": "SW6",
+      "kind": "lead_or_peg",
+      "position": [
+        34.69,
+        72.29
+      ],
+      "radius": 1.1
+    },
+    {
+      "ref": "J3",
+      "kind": "lead_or_peg",
+      "position": [
+        15.4,
+        122.0
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "J3",
+      "kind": "lead_or_peg",
+      "position": [
+        17.94,
+        122.0
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "J3",
+      "kind": "lead_or_peg",
+      "position": [
+        20.48,
+        122.0
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "J3",
+      "kind": "lead_or_peg",
+      "position": [
+        23.02,
+        122.0
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "J3",
+      "kind": "lead_or_peg",
+      "position": [
+        25.56,
+        122.0
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "SW16",
+      "kind": "lead_or_peg",
+      "position": [
+        79.42,
+        16.75
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "SW16",
+      "kind": "lead_or_peg",
+      "position": [
+        84.5,
+        16.75
+      ],
+      "radius": 2.0
+    },
+    {
+      "ref": "SW16",
+      "kind": "lead_or_peg",
+      "position": [
+        89.58,
+        16.75
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "SW16",
+      "kind": "lead_or_peg",
+      "position": [
+        87.04,
+        21.83
+      ],
+      "radius": 1.1
+    },
+    {
+      "ref": "SW16",
+      "kind": "lead_or_peg",
+      "position": [
+        80.69,
+        19.29
+      ],
+      "radius": 1.1
+    },
+    {
+      "ref": "SW2",
+      "kind": "lead_or_peg",
+      "position": [
+        33.42,
+        96.25
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "SW2",
+      "kind": "lead_or_peg",
+      "position": [
+        38.5,
+        96.25
+      ],
+      "radius": 2.0
+    },
+    {
+      "ref": "SW2",
+      "kind": "lead_or_peg",
+      "position": [
+        43.58,
+        96.25
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "SW2",
+      "kind": "lead_or_peg",
+      "position": [
+        41.04,
+        101.33
+      ],
+      "radius": 1.1
+    },
+    {
+      "ref": "SW2",
+      "kind": "lead_or_peg",
+      "position": [
+        34.69,
+        98.79
+      ],
+      "radius": 1.1
+    },
+    {
+      "ref": "SW1",
+      "kind": "lead_or_peg",
+      "position": [
+        10.42,
+        96.25
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "SW1",
+      "kind": "lead_or_peg",
+      "position": [
+        15.5,
+        96.25
+      ],
+      "radius": 2.0
+    },
+    {
+      "ref": "SW1",
+      "kind": "lead_or_peg",
+      "position": [
+        20.58,
+        96.25
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "SW1",
+      "kind": "lead_or_peg",
+      "position": [
+        18.04,
+        101.33
+      ],
+      "radius": 1.1
+    },
+    {
+      "ref": "SW1",
+      "kind": "lead_or_peg",
+      "position": [
+        11.69,
+        98.79
+      ],
+      "radius": 1.1
+    },
+    {
+      "ref": "SW11",
+      "kind": "lead_or_peg",
+      "position": [
+        56.42,
+        43.25
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "SW11",
+      "kind": "lead_or_peg",
+      "position": [
+        61.5,
+        43.25
+      ],
+      "radius": 2.0
+    },
+    {
+      "ref": "SW11",
+      "kind": "lead_or_peg",
+      "position": [
+        66.58,
+        43.25
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "SW11",
+      "kind": "lead_or_peg",
+      "position": [
+        64.04,
+        48.33
+      ],
+      "radius": 1.1
+    },
+    {
+      "ref": "SW11",
+      "kind": "lead_or_peg",
+      "position": [
+        57.69,
+        45.79
+      ],
+      "radius": 1.1
+    },
+    {
+      "ref": "SW14",
+      "kind": "lead_or_peg",
+      "position": [
+        33.42,
+        16.75
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "SW14",
+      "kind": "lead_or_peg",
+      "position": [
+        38.5,
+        16.75
+      ],
+      "radius": 2.0
+    },
+    {
+      "ref": "SW14",
+      "kind": "lead_or_peg",
+      "position": [
+        43.58,
+        16.75
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "SW14",
+      "kind": "lead_or_peg",
+      "position": [
+        41.04,
+        21.83
+      ],
+      "radius": 1.1
+    },
+    {
+      "ref": "SW14",
+      "kind": "lead_or_peg",
+      "position": [
+        34.69,
+        19.29
+      ],
+      "radius": 1.1
+    },
+    {
+      "ref": "SW9",
+      "kind": "lead_or_peg",
+      "position": [
+        10.42,
+        43.25
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "SW9",
+      "kind": "lead_or_peg",
+      "position": [
+        15.5,
+        43.25
+      ],
+      "radius": 2.0
+    },
+    {
+      "ref": "SW9",
+      "kind": "lead_or_peg",
+      "position": [
+        20.58,
+        43.25
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "SW9",
+      "kind": "lead_or_peg",
+      "position": [
+        18.04,
+        48.33
+      ],
+      "radius": 1.1
+    },
+    {
+      "ref": "SW9",
+      "kind": "lead_or_peg",
+      "position": [
+        11.69,
+        45.79
+      ],
+      "radius": 1.1
+    },
+    {
+      "ref": "SW5",
+      "kind": "lead_or_peg",
+      "position": [
+        10.42,
+        69.75
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "SW5",
+      "kind": "lead_or_peg",
+      "position": [
+        15.5,
+        69.75
+      ],
+      "radius": 2.0
+    },
+    {
+      "ref": "SW5",
+      "kind": "lead_or_peg",
+      "position": [
+        20.58,
+        69.75
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "SW5",
+      "kind": "lead_or_peg",
+      "position": [
+        18.04,
+        74.83
+      ],
+      "radius": 1.1
+    },
+    {
+      "ref": "SW5",
+      "kind": "lead_or_peg",
+      "position": [
+        11.69,
+        72.29
+      ],
+      "radius": 1.1
+    },
+    {
+      "ref": "SW17",
+      "kind": "lead_or_peg",
+      "position": [
+        72.2,
+        125.5
+      ],
+      "radius": 1.0
+    },
+    {
+      "ref": "SW17",
+      "kind": "lead_or_peg",
+      "position": [
+        72.2,
+        120.5
+      ],
+      "radius": 1.0
+    },
+    {
+      "ref": "SW17",
+      "kind": "lead_or_peg",
+      "position": [
+        72.2,
+        123.0
+      ],
+      "radius": 1.0
+    },
+    {
+      "ref": "SW17",
+      "kind": "lead_or_peg",
+      "position": [
+        79.7,
+        128.6
+      ],
+      "radius": 1.6
+    },
+    {
+      "ref": "SW17",
+      "kind": "lead_or_peg",
+      "position": [
+        79.7,
+        117.4
+      ],
+      "radius": 1.6
+    },
+    {
+      "ref": "SW17",
+      "kind": "lead_or_peg",
+      "position": [
+        86.7,
+        120.5
+      ],
+      "radius": 1.0
+    },
+    {
+      "ref": "SW17",
+      "kind": "lead_or_peg",
+      "position": [
+        86.7,
+        125.5
+      ],
+      "radius": 1.0
+    },
+    {
+      "ref": "J1",
+      "kind": "lead_or_peg",
+      "position": [
+        52.89,
+        136.5
+      ],
+      "radius": 0.325
+    },
+    {
+      "ref": "J1",
+      "kind": "lead_or_peg",
+      "position": [
+        47.11,
+        136.5
+      ],
+      "radius": 0.325
+    },
+    {
+      "ref": "J1",
+      "kind": "lead_or_peg",
+      "position": [
+        54.32,
+        135.97
+      ],
+      "radius": 1.05
+    },
+    {
+      "ref": "J1",
+      "kind": "lead_or_peg",
+      "position": [
+        54.32,
+        140.15
+      ],
+      "radius": 0.8
+    },
+    {
+      "ref": "J1",
+      "kind": "lead_or_peg",
+      "position": [
+        45.68,
+        135.97
+      ],
+      "radius": 1.05
+    },
+    {
+      "ref": "J1",
+      "kind": "lead_or_peg",
+      "position": [
+        45.68,
+        140.15
+      ],
+      "radius": 0.8
+    },
+    {
+      "ref": "SW8",
+      "kind": "lead_or_peg",
+      "position": [
+        79.42,
+        69.75
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "SW8",
+      "kind": "lead_or_peg",
+      "position": [
+        84.5,
+        69.75
+      ],
+      "radius": 2.0
+    },
+    {
+      "ref": "SW8",
+      "kind": "lead_or_peg",
+      "position": [
+        89.58,
+        69.75
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "SW8",
+      "kind": "lead_or_peg",
+      "position": [
+        87.04,
+        74.83
+      ],
+      "radius": 1.1
+    },
+    {
+      "ref": "SW8",
+      "kind": "lead_or_peg",
+      "position": [
+        80.69,
+        72.29
+      ],
+      "radius": 1.1
+    },
+    {
+      "ref": "SW10",
+      "kind": "lead_or_peg",
+      "position": [
+        33.42,
+        43.25
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "SW10",
+      "kind": "lead_or_peg",
+      "position": [
+        38.5,
+        43.25
+      ],
+      "radius": 2.0
+    },
+    {
+      "ref": "SW10",
+      "kind": "lead_or_peg",
+      "position": [
+        43.58,
+        43.25
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "SW10",
+      "kind": "lead_or_peg",
+      "position": [
+        41.04,
+        48.33
+      ],
+      "radius": 1.1
+    },
+    {
+      "ref": "SW10",
+      "kind": "lead_or_peg",
+      "position": [
+        34.69,
+        45.79
+      ],
+      "radius": 1.1
+    },
+    {
+      "ref": "SW4",
+      "kind": "lead_or_peg",
+      "position": [
+        79.42,
+        96.25
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "SW4",
+      "kind": "lead_or_peg",
+      "position": [
+        84.5,
+        96.25
+      ],
+      "radius": 2.0
+    },
+    {
+      "ref": "SW4",
+      "kind": "lead_or_peg",
+      "position": [
+        89.58,
+        96.25
+      ],
+      "radius": 0.85
+    },
+    {
+      "ref": "SW4",
+      "kind": "lead_or_peg",
+      "position": [
+        87.04,
+        101.33
+      ],
+      "radius": 1.1
+    },
+    {
+      "ref": "SW4",
+      "kind": "lead_or_peg",
+      "position": [
+        80.69,
+        98.79
+      ],
+      "radius": 1.1
+    },
+    {
+      "ref": "LED15",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        57.85,
+        9.8,
+        65.15,
+        13.54
+      ]
+    },
+    {
+      "ref": "C5",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        59.32,
+        120.77,
+        62.28,
+        122.23
+      ]
+    },
+    {
+      "ref": "U6",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        26.35,
+        131.6,
+        35.65,
+        137.4
+      ]
+    },
+    {
+      "ref": "LED3",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        57.85,
+        89.3,
+        65.15,
+        93.04
+      ]
+    },
+    {
+      "ref": "R12",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        67.77,
+        84.87,
+        69.23,
+        87.83
+      ]
+    },
+    {
+      "ref": "R17",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        90.77,
+        58.37,
+        92.23,
+        61.33
+      ]
+    },
+    {
+      "ref": "C26",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        56.72,
+        126.77,
+        59.68,
+        128.23
+      ]
+    },
+    {
+      "ref": "D7",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        54.0,
+        61.05,
+        56.3,
+        65.75
+      ]
+    },
+    {
+      "ref": "C21",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        20.77,
+        10.19,
+        22.23,
+        13.15
+      ]
+    },
+    {
+      "ref": "C16",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        89.77,
+        63.19,
+        91.23,
+        66.15
+      ]
+    },
+    {
+      "ref": "C17",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        20.77,
+        36.69,
+        22.23,
+        39.65
+      ]
+    },
+    {
+      "ref": "C6",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        55.92,
+        122.77,
+        58.88,
+        124.23
+      ]
+    },
+    {
+      "ref": "R15",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        44.77,
+        58.37,
+        46.23,
+        61.33
+      ]
+    },
+    {
+      "ref": "C12",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        89.77,
+        89.69,
+        91.23,
+        92.65
+      ]
+    },
+    {
+      "ref": "R14",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        21.77,
+        58.37,
+        23.23,
+        61.33
+      ]
+    },
+    {
+      "ref": "C3",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        40.92,
+        119.77,
+        43.88,
+        121.23
+      ]
+    },
+    {
+      "ref": "U2",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        37.35,
+        127.8,
+        41.45,
+        131.2
+      ]
+    },
+    {
+      "ref": "D1",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        8.0,
+        87.55,
+        10.3,
+        92.25
+      ]
+    },
+    {
+      "ref": "C15",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        66.77,
+        63.19,
+        68.23,
+        66.15
+      ]
+    },
+    {
+      "ref": "C18",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        43.77,
+        36.69,
+        45.23,
+        39.65
+      ]
+    },
+    {
+      "ref": "LED16",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        80.85,
+        9.8,
+        88.15,
+        13.54
+      ]
+    },
+    {
+      "ref": "LED7",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        57.85,
+        62.8,
+        65.15,
+        66.54
+      ]
+    },
+    {
+      "ref": "R7",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        43.27,
+        108.02,
+        44.73,
+        110.98
+      ]
+    },
+    {
+      "ref": "LED6",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        34.85,
+        62.8,
+        42.15,
+        66.54
+      ]
+    },
+    {
+      "ref": "C25",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        66.92,
+        126.77,
+        69.88,
+        128.23
+      ]
+    },
+    {
+      "ref": "C10",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        43.77,
+        89.69,
+        45.23,
+        92.65
+      ]
+    },
+    {
+      "ref": "LED13",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        11.85,
+        9.8,
+        19.15,
+        13.54
+      ]
+    },
+    {
+      "ref": "R1",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        43.67,
+        128.02,
+        45.13,
+        130.98
+      ]
+    },
+    {
+      "ref": "R11",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        29.27,
+        83.52,
+        30.73,
+        86.48
+      ]
+    },
+    {
+      "ref": "D16",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        77.0,
+        8.05,
+        79.3,
+        12.75
+      ]
+    },
+    {
+      "ref": "R16",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        67.77,
+        58.37,
+        69.23,
+        61.33
+      ]
+    },
+    {
+      "ref": "D2",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        31.0,
+        87.55,
+        33.3,
+        92.25
+      ]
+    },
+    {
+      "ref": "R5",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        29.42,
+        124.77,
+        32.38,
+        126.23
+      ]
+    },
+    {
+      "ref": "D8",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        77.0,
+        61.05,
+        79.3,
+        65.75
+      ]
+    },
+    {
+      "ref": "R6",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        21.77,
+        111.37,
+        23.23,
+        114.33
+      ]
+    },
+    {
+      "ref": "C28",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        51.77,
+        81.52,
+        53.23,
+        84.48
+      ]
+    },
+    {
+      "ref": "C23",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        66.77,
+        10.19,
+        68.23,
+        13.15
+      ]
+    },
+    {
+      "ref": "C22",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        43.77,
+        10.19,
+        45.23,
+        13.15
+      ]
+    },
+    {
+      "ref": "LED8",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        80.85,
+        62.8,
+        88.15,
+        66.54
+      ]
+    },
+    {
+      "ref": "C8",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        55.92,
+        116.77,
+        58.88,
+        118.23
+      ]
+    },
+    {
+      "ref": "D6",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        31.0,
+        61.05,
+        33.3,
+        65.75
+      ]
+    },
+    {
+      "ref": "LED10",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        34.85,
+        36.3,
+        42.15,
+        40.04
+      ]
+    },
+    {
+      "ref": "R8",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        67.77,
+        111.37,
+        69.23,
+        114.33
+      ]
+    },
+    {
+      "ref": "D4",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        77.0,
+        87.55,
+        79.3,
+        92.25
+      ]
+    },
+    {
+      "ref": "C11",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        66.77,
+        89.69,
+        68.23,
+        92.65
+      ]
+    },
+    {
+      "ref": "LED9",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        11.85,
+        36.3,
+        19.15,
+        40.04
+      ]
+    },
+    {
+      "ref": "D11",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        54.0,
+        34.55,
+        56.3,
+        39.25
+      ]
+    },
+    {
+      "ref": "C1",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        40.92,
+        125.77,
+        43.88,
+        127.23
+      ]
+    },
+    {
+      "ref": "LED5",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        11.85,
+        62.8,
+        19.15,
+        66.54
+      ]
+    },
+    {
+      "ref": "D5",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        8.0,
+        61.05,
+        10.3,
+        65.75
+      ]
+    },
+    {
+      "ref": "C29",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        30.52,
+        129.8,
+        33.48,
+        131.26
+      ]
+    },
+    {
+      "ref": "U5",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        35.05,
+        77.07,
+        50.95,
+        88.93
+      ]
+    },
+    {
+      "ref": "C2",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        40.92,
+        122.77,
+        43.88,
+        124.23
+      ]
+    },
+    {
+      "ref": "Q1",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        40.07,
+        131.8,
+        43.93,
+        135.2
+      ]
+    },
+    {
+      "ref": "D9",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        8.0,
+        34.55,
+        10.3,
+        39.25
+      ]
+    },
+    {
+      "ref": "R3",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        36.67,
+        120.02,
+        38.13,
+        122.98
+      ]
+    },
+    {
+      "ref": "LED2",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        34.85,
+        89.3,
+        42.15,
+        93.04
+      ]
+    },
+    {
+      "ref": "LED1",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        11.85,
+        89.3,
+        19.15,
+        93.04
+      ]
+    },
+    {
+      "ref": "C24",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        89.77,
+        10.19,
+        91.23,
+        13.15
+      ]
+    },
+    {
+      "ref": "D12",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        77.0,
+        34.55,
+        79.3,
+        39.25
+      ]
+    },
+    {
+      "ref": "C4",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        40.92,
+        116.77,
+        43.88,
+        118.23
+      ]
+    },
+    {
+      "ref": "C20",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        89.77,
+        36.69,
+        91.23,
+        39.65
+      ]
+    },
+    {
+      "ref": "LED14",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        34.85,
+        9.8,
+        42.15,
+        13.54
+      ]
+    },
+    {
+      "ref": "R2",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        54.67,
+        128.02,
+        56.13,
+        130.98
+      ]
+    },
+    {
+      "ref": "C27",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        62.7,
+        123.52,
+        66.1,
+        125.48
+      ]
+    },
+    {
+      "ref": "D14",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        31.0,
+        8.05,
+        33.3,
+        12.75
+      ]
+    },
+    {
+      "ref": "U3",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        61.35,
+        127.8,
+        65.45,
+        131.2
+      ]
+    },
+    {
+      "ref": "LED12",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        80.85,
+        36.3,
+        88.15,
+        40.04
+      ]
+    },
+    {
+      "ref": "C14",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        43.77,
+        63.19,
+        45.23,
+        66.15
+      ]
+    },
+    {
+      "ref": "R10",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        21.77,
+        84.87,
+        23.23,
+        87.83
+      ]
+    },
+    {
+      "ref": "R13",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        90.77,
+        84.87,
+        92.23,
+        87.83
+      ]
+    },
+    {
+      "ref": "LED4",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        80.85,
+        89.3,
+        88.15,
+        93.04
+      ]
+    },
+    {
+      "ref": "C13",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        20.77,
+        63.19,
+        22.23,
+        66.15
+      ]
+    },
+    {
+      "ref": "U1",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        44.85,
+        116.35,
+        55.15,
+        126.65
+      ]
+    },
+    {
+      "ref": "D15",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        54.0,
+        8.05,
+        56.3,
+        12.75
+      ]
+    },
+    {
+      "ref": "D10",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        31.0,
+        34.55,
+        33.3,
+        39.25
+      ]
+    },
+    {
+      "ref": "R9",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        90.77,
+        111.37,
+        92.23,
+        114.33
+      ]
+    },
+    {
+      "ref": "C9",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        20.77,
+        89.69,
+        22.23,
+        92.65
+      ]
+    },
+    {
+      "ref": "LED11",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        57.85,
+        36.3,
+        65.15,
+        40.04
+      ]
+    },
+    {
+      "ref": "R4",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        25.92,
+        124.77,
+        28.88,
+        126.23
+      ]
+    },
+    {
+      "ref": "C19",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        66.77,
+        36.69,
+        68.23,
+        39.65
+      ]
+    },
+    {
+      "ref": "U4",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        22.35,
+        116.8,
+        26.45,
+        120.2
+      ]
+    },
+    {
+      "ref": "D3",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        54.0,
+        87.55,
+        56.3,
+        92.25
+      ]
+    },
+    {
+      "ref": "D13",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        8.0,
+        8.05,
+        10.3,
+        12.75
+      ]
+    },
+    {
+      "ref": "C7",
+      "kind": "bottom_courtyard",
+      "bounds": [
+        55.92,
+        119.77,
+        58.88,
+        121.23
+      ]
+    }
+  ],
+  "screenkey_mm": [
+    22.0,
+    25.3,
+    8.6
+  ],
+  "screenkey_source": "https://docs.waveshare.com/0.85inch-ScreenKey-Module-W",
+  "coordinates": "mm; origin PCB front-left; +Y toward USB; +Z up",
+  "base": {
+    "outer_mm": [
+      105.5,
+      148.0,
+      10.4
+    ],
+    "pcb_bottom_z": 8.4,
+    "pcb_top_z": 10.0,
+    "pcb_side_clearance": 0.35,
+    "floor_mm": 2.4,
+    "wall_mm": 2.4,
+    "underside_clearance_mm": 6.0,
+    "post_diameter_mm": 6.0,
+    "pilot_diameter_mm": 2.6,
+    "pilot_depth_mm": 7.0,
+    "screw_length_mm": 8.0,
+    "usb_notch_width_mm": 16.0,
+    "usb_notch_bottom_z": 6.5,
+    "post_reliefs": {
+      "H3": {
+        "component": "R11",
+        "clearance": 0.5,
+        "component_max_depth": 1.5,
+        "depth": 2.0,
+        "bottom_z": 6.4,
+        "component_bounds": [
+          29.27,
+          83.52,
+          30.73,
+          86.48
+        ],
+        "polygon": [
+          [
+            27,
+            83.0
+          ],
+          [
+            31.23,
+            83.02
+          ],
+          [
+            31.23,
+            86.98
+          ],
+          [
+            28.77,
+            86.98
+          ]
+        ]
+      }
+    }
+  }
+}
