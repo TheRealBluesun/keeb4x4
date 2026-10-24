@@ -15,7 +15,7 @@ with `keeb update`, and you can put the programmer back in a drawer.
 | **1×5 2.54 mm pin header, soldered into J3** | J3 is not populated by JLC. Solder a straight header in (you can skip this and hold the wires against the holes, but don't). |
 | **USB-C cable** | Powers the board during flashing. |
 | **probe-rs** | The flashing tool. Install below. |
-| **Rust (rustup)** | To build the firmware images. See the top-level README. |
+| **Firmware image** | Download `factory.bin` from the [latest release](https://github.com/TheRealBluesun/keeb4x4/releases/latest). No build needed. |
 
 ## J3 pinout
 
@@ -78,37 +78,58 @@ Full instructions, including Windows driver notes: <https://probe.rs/docs/gettin
 
 ## Flash it
 
-From the repo root:
+### 1. Get the firmware image
+
+Download **`factory.bin`** from the
+[latest release](https://github.com/TheRealBluesun/keeb4x4/releases/latest).
+It's the bootloader plus the ocean-animation firmware in one 128 KB image,
+and it's identical for every board.
 
 ```sh
-# 1. Build the host tool and both firmware images.
-#    This produces firmware/artifacts/update/factory.bin
-#    (bootloader + application + commit record in one image).
-cargo build --manifest-path host/Cargo.toml --release --locked
-host/target/release/keeb build
+curl -LO https://github.com/TheRealBluesun/keeb4x4/releases/latest/download/factory.bin
+```
 
-# 2. Check the probe is visible.
+(If you've changed the firmware, build your own instead: from the repo root,
+`cargo build --manifest-path host/Cargo.toml --release --locked`, then
+`host/target/release/keeb build`. That writes
+`firmware/artifacts/update/factory.bin`.)
+
+### 2. Flash it
+
+```sh
+# Check the probe is visible.
 probe-rs list
 
-# 3. With the board plugged into USB-C and wired to the ST-Link,
-#    check that probe-rs can see the chip.
+# With the board plugged into USB-C and wired to the ST-Link,
+# check that probe-rs can see the chip.
 probe-rs info --protocol swd --speed 100
 
-# 4. Write the factory image (takes ~10–30 s at this speed).
+# Write the image (takes ~10–30 s at this speed).
 probe-rs download --chip STM32G431CBTx --protocol swd --speed 100 \
   --binary-format bin --base-address 0x08000000 --verify \
-  firmware/artifacts/update/factory.bin
+  factory.bin
 probe-rs reset --chip STM32G431CBTx --protocol swd --speed 100
 ```
 
-Then disconnect the ST-Link, unplug and replug USB-C, and check:
+Then disconnect the ST-Link and unplug and replug USB-C. The four top-row
+ScreenKeys should show the ocean animation; the encoder adjusts their
+brightness and pressing it toggles them. Keys light their LED while held.
+
+### 3. (Optional) Check it from the computer
+
+The `keeb` host tool lists the board and shows key/encoder events. A Linux
+x86-64 build (`keeb-linux-x86_64`, needs glibc 2.39+, e.g. Ubuntu 24.04) is on
+the release page. On anything else, build it with
+[rustup](https://rustup.rs) installed:
+`cargo build --manifest-path host/Cargo.toml --release --locked`.
 
 ```sh
-host/target/release/keeb list     # should show "keeb-v2 events"
-host/target/release/keeb listen   # press keys, turn the encoder
+keeb list     # should show "keeb-v2 events"
+keeb listen   # press keys, turn the encoder
 ```
 
-Done. From now on, update firmware over USB:
+Done. From now on, update firmware over USB, using `keeb-v2.kbf` from a
+release or your own build:
 
 ```sh
 host/target/release/keeb build

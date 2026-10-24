@@ -19,12 +19,15 @@ need a debug probe after the first flash.
 | [`bootloader/`](bootloader/README.md) | USB DFU bootloader, recovery, memory layout |
 | [`host/`](host/README.md) | `keeb` CLI: list devices, listen to events, build and flash firmware |
 | [`enclosure/`](enclosure/README.md) | 3D-printable base (STL/STEP) and its parametric source |
+| [`docs/PARTS.md`](docs/PARTS.md) | What to buy beyond the assembled board: ScreenKeys, switches, encoder |
 | [`docs/PROGRAMMER.md`](docs/PROGRAMMER.md) | One-time bootloader flashing with an ST-Link clone |
 | `tools/pcb/` | KiCad Python scripts used while routing the LED chain and GND stitching |
 
 ## Quick start (you have a board)
 
-> New board? Flash the bootloader first: [docs/PROGRAMMER.md](docs/PROGRAMMER.md).
+> **New board?**
+> 1. Buy the parts that aren't on the assembled board: [docs/PARTS.md](docs/PARTS.md) (ScreenKeys, switches, encoder, ST-Link…)
+> 2. Flash the pre-built firmware once with an ST-Link: [docs/PROGRAMMER.md](docs/PROGRAMMER.md). Image on the [releases page](https://github.com/TheRealBluesun/keeb4x4/releases/latest).
 
 Requires [rustup](https://rustup.rs). Toolchains and targets are pinned per
 project and install automatically.
